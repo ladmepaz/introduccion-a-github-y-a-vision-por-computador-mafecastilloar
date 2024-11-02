@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -- coding: utf-8 --
 """
 Created on Sat Oct  5 17:00:25 2024
 
@@ -23,6 +23,9 @@ def leer_imagen(ruta_imagen):
     # Abrir la imagen
     img = Image.open(ruta_imagen) # Insertar código aquí
     return img
+
+img = leer_imagen("data/imagen0.png")
+img.show()
 
 def obtener_info_imagen(img):
     """
